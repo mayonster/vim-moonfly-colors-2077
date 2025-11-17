@@ -193,7 +193,7 @@ M.style = function()
   highlight(0, "Normal", { bg = bg, fg = white })
 
   -- Color of mode text, -- INSERT --
-  highlight(0, "ModeMsg", { fg = grey62 })
+  highlight(0, "ModeMsg", { link = "MoonflyGrey62" })
 
   -- Comments
   if g.moonflyItalics then
@@ -302,6 +302,7 @@ M.style = function()
   -- Completions
   highlight(0, "ComplHint", { link = "MoonflyGrey39" })
   highlight(0, "ComplHintMore", { link = "MoonflySky" })
+  highlight(0, "ComplMatchIns", { link = "MoonflyGrey62" })
   if g.moonflyNormalPmenu then
     highlight(0, "Pmenu", { bg = bg, fg = grey70 })
     highlight(0, "PmenuBorder", { bg = bg, fg = grey18 })
