@@ -791,6 +791,12 @@ M.style = function()
   highlight(0, "BlinkIndentBlueUnderline", { sp = blue, underline = true })
   highlight(0, "BlinkIndentVioletUnderline", { sp = violet, underline = true })
 
+  -- blink.pairs plugin
+  highlight(0, "BlinkPairsBlue", { link = "MoonflyBlue" })
+  highlight(0, "BlinkPairsOrange", { link = "MoonflyOrange" })
+  highlight(0, "BlinkPairsPurple", { link = "MoonflyViolet" })
+  highlight(0, "BlinkPairsUnmatched", { link = "MoonflyCrimson" })
+
   -- Bufferline plugin
   highlight(0, "BufferLineTabSelected", { fg = blue })
   highlight(0, "BufferLineIndicatorSelected", { fg = blue })
