@@ -761,7 +761,7 @@ function! moonfly#Style() abort
 
     " Git commit diffs
     highlight! link diffAdded MoonflyGreen
-    highlight! link diffChanged MoonflyCrimson
+    highlight! link diffChanged MoonflySky
     highlight! link diffIndexLine MoonflyCrimson
     highlight! link diffLine MoonflySky
     highlight! link diffRemoved MoonflyRed
