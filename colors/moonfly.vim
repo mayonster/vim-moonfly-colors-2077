@@ -10,7 +10,7 @@ if exists('syntax_on')
 endif
 
 " Set colorscheme name.
-let g:colors_name = 'moonfly'
+let g:colors_name = '2077'
 
 " Define theme options.
 let g:moonflyCursorColor = get(g:, 'moonflyCursorColor', v:false)
