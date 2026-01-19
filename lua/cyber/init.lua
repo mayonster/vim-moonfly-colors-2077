@@ -220,7 +220,7 @@ M.style = function()
   end
 
   -- Functions
-  highlight(0, "Function", { link = "CyberPink" })
+  highlight(0, "Function", { link = "CyberGold" })
 
   -- Strings
   highlight(0, "String", { link = "CyberCyan" })
@@ -229,10 +229,10 @@ M.style = function()
   highlight(0, "Boolean", { link = "CyberMagenta" })
 
   -- Identifiers
-  highlight(0, "Identifier", { link = "CyberTurquoise" })
+  highlight(0, "Identifier", { link = "CyberTermBrightGreen" })
 
   -- Color of titles
-  highlight(0, "Title", { fg = orange })
+  highlight(0, "Title", { fg = termBrightGreen })
 
   -- const, static
   highlight(0, "StorageClass", { link = "CyberViolet" })
