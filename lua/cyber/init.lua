@@ -226,7 +226,7 @@ M.style = function()
   highlight(0, "String", { link = "CyberCyan" })
 
   -- Booleans
-  highlight(0, "Boolean", { link = "CyberCranberry" })
+  highlight(0, "Boolean", { link = "CyberMagenta" })
 
   -- Identifiers
   highlight(0, "Identifier", { link = "CyberTurquoise" })
@@ -241,7 +241,7 @@ M.style = function()
   highlight(0, "Type", { fg = emerald })
 
   -- Numbers
-  highlight(0, "Constant", { link = "CyberOrange" })
+  highlight(0, "Constant", { link = "CyberGold" })
 
   -- Character constants
   highlight(0, "Character", { link = "CyberPurple" })
@@ -250,10 +250,10 @@ M.style = function()
   highlight(0, "Exception", { link = "CyberCrimson" })
 
   -- ifdef/endif
-  highlight(0, "PreProc", { link = "CyberCranberry" })
+  highlight(0, "PreProc", { link = "CyberPink" })
 
   -- case in switch statement
-  highlight(0, "Label", { link = "CyberTurquoise" })
+  highlight(0, "Label", { link = "CyberPink" })
 
   -- end-of-line '$', end-of-file '~'
   highlight(0, "NonText", { fg = grey39 })
@@ -273,10 +273,10 @@ M.style = function()
   highlight(0, "Special", { link = "CyberCranberry" })
 
   -- if, else
-  highlight(0, "Statement", { fg = violet })
+  highlight(0, "Statement", { fg = pink })
 
   -- struct, union, enum, typedef
-  highlight(0, "Structure", { link = "CyberBlue" })
+  highlight(0, "Structure", { link = "CyberPink" })
 
   -- Status, split and tab lines
   if g.CyberTransparent == true then
