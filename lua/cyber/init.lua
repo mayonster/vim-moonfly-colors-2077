@@ -259,7 +259,7 @@ M.style = function()
   highlight(0, "NonText", { fg = gold })
 
   -- sizeof
-  highlight(0, "Operator", { link = "CyberTermGreen" })
+  highlight(0, "Operator", { link = "CyberPink" })
 
   -- for, while
   highlight(0, "Repeat", { link = "CyberPink" })
