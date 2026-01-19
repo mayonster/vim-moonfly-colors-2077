@@ -210,7 +210,7 @@ M.style = function()
   highlight(0, "Normal", { bg = bg, fg = white })
 
   -- Color of mode text, -- INSERT --
-  highlight(0, "ModeMsg", { link = "CyberGrey62" })
+  highlight(0, "ModeMsg", { link = "CyberMagenta" })
 
   -- Comments
   if g.CyberItalics then
