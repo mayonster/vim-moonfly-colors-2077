@@ -235,10 +235,10 @@ M.style = function()
   highlight(0, "Title", { fg = termBrightGreen })
 
   -- const, static
-  highlight(0, "StorageClass", { link = "CyberViolet" })
+  highlight(0, "StorageClass", { link = "CyberBlue" })
 
   -- void, intptr_t
-  highlight(0, "Type", { fg = emerald })
+  highlight(0, "Type", { fg = wine })
 
   -- Numbers
   highlight(0, "Constant", { link = "CyberGold" })
@@ -247,7 +247,7 @@ M.style = function()
   highlight(0, "Character", { link = "CyberPurple" })
 
   -- Exceptions
-  highlight(0, "Exception", { link = "CyberCrimson" })
+  highlight(0, "Exception", { link = "CyberWine" })
 
   -- ifdef/endif
   highlight(0, "PreProc", { link = "CyberPink" })
@@ -256,21 +256,21 @@ M.style = function()
   highlight(0, "Label", { link = "CyberPink" })
 
   -- end-of-line '$', end-of-file '~'
-  highlight(0, "NonText", { fg = grey39 })
+  highlight(0, "NonText", { fg = gold })
 
   -- sizeof
-  highlight(0, "Operator", { link = "CyberCranberry" })
+  highlight(0, "Operator", { link = "CyberTermGreen" })
 
   -- for, while
-  highlight(0, "Repeat", { link = "CyberViolet" })
+  highlight(0, "Repeat", { link = "CyberPink" })
 
   -- Search
-  highlight(0, "Search", { bg = grey1, fg = grey89 })
-  highlight(0, "CurSearch", { bg = coral, fg = black })
-  highlight(0, "IncSearch", { bg = yellow, fg = black })
+  highlight(0, "Search", { bg = blue, fg = purple3 })
+  highlight(0, "CurSearch", { bg = purple2, fg = black })
+  highlight(0, "IncSearch", { bg = navy2, fg = black })
 
   -- '\n' sequences
-  highlight(0, "Special", { link = "CyberCranberry" })
+  highlight(0, "Special", { link = "CyberPurple3" })
 
   -- if, else
   highlight(0, "Statement", { fg = pink })
